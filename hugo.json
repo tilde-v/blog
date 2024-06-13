@@ -1,0 +1,83 @@
+{
+	"baseURL": "https://blog.vtil.dev/",
+	"languageCode": "en-gb",
+	"title": "~",
+	"theme": "hugo-theme-stack",
+	"taxonomies": {
+		"category": "categories",
+		"tag": "tags"
+	},
+	"menu": {
+		"main": [{
+			"identifier": "home",
+			"name": "Home",
+			"url": "/",
+			"params": {
+				"icon": "home",
+				"newTab": false
+			}
+		}],
+		"social": [{
+			"identifier": "github",
+			"name": "Github",
+			"url": "https://github.com/tilde-v",
+			"params": {
+				"icon": "brand-github"
+			}
+		}]
+	},
+	"params": {
+		"mainSections": [
+			"posts"
+		],
+		"sidebar": {
+			"emoji": null,
+			"subtitle": "stuff and things",
+			"avatar": {
+				"enabled": true,
+				"local": true,
+				"src": "img/avatar.png"
+			}
+		},
+		"widgets": {
+			"homepage": [{
+					"type": "categories"
+				},
+				{
+					"type": "tag-cloud"
+				}
+			],
+			"page": []
+		},
+		"favicon": null,
+		"footer": {
+			"since": null,
+			"customText": null
+		},
+		"dateFormat": {
+			"published": "02 Jan 2006",
+			"lastUpdated": "02 Jan 2006"
+		},
+		"article": {
+			"headingAnchor": false,
+			"math": false,
+			"toc": true,
+			"readingTime": false
+		},
+		"comments": {
+			"enabled": false
+		},
+		"colorScheme": {
+			"toggle": true,
+			"default": "auto"
+		},
+		"imageProcessing": {
+			"cover": {
+				"enabled": true
+			},
+			"content": {
+				"enabled": true
+			}
+		}
+	}
+}
