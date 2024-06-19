@@ -3,6 +3,13 @@
 	"languageCode": "en-gb",
 	"title": "~",
 	"theme": "hugo-theme-stack",
+	"markup": {
+		"goldmark": {
+			"renderer": {
+				"hardWraps": true
+			}
+		}
+	},
 	"taxonomies": {
 		"category": "categories",
 		"tag": "tags"
