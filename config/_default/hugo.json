@@ -1,0 +1,36 @@
+{
+	"baseURL": "https://blog.vtil.dev/",
+	"languageCode": "en-gb",
+	"title": "~",
+	"theme": "hugo-theme-stack",
+	"markup": {
+		"goldmark": {
+			"renderer": {
+				"hardWraps": true
+			}
+		}
+	},
+	"taxonomies": {
+		"category": "categories",
+		"tag": "tags"
+	},
+	"menu": {
+		"main": [{
+			"identifier": "home",
+			"name": "Home",
+			"url": "/",
+			"params": {
+				"icon": "home",
+				"newTab": false
+			}
+		}],
+		"social": [{
+			"identifier": "github",
+			"name": "Github",
+			"url": "https://github.com/tilde-v",
+			"params": {
+				"icon": "brand-github"
+			}
+		}]
+	}
+}
